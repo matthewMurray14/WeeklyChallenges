@@ -146,7 +146,7 @@ namespace ChallengesWithTestsMark8.Tests
             ChallengesSet01 challenger = new ChallengesSet01();
 
             // Act
-            string actual = challenger.GetHey();
+            string actual = challenger.GetHey(string );
 
             // Assert
             Assert.Equal("HEY!", actual);
